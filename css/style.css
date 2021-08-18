@@ -8,7 +8,8 @@ body {
 
 .header {
     background-color: #635854;
-    padding: 12px auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
     border-bottom: 4px solid #3596f5;
 }
 
@@ -30,8 +31,8 @@ body {
 }
 
 .navbar-item {
-    margin: auto 40px;
-    
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .navbar-link {
