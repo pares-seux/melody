@@ -74,6 +74,7 @@ body {
     margin: auto;
 	padding-top: 54px;
 	display: flex;
+    padding-bottom: 99px;
 }
 
 .main-info {
@@ -248,3 +249,56 @@ path.current-floor {
     right: 27px;
     top: 38px;
 }
+
+.footer {
+    border-top: 4px solid #3596f5;
+    background-color: #D7D7D7;
+    height: 171px;
+    padding-top: 50px;
+}
+
+.footer-navbar {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.footer-contacts {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.footer-contacts div {
+    margin-right: 37px;
+}
+
+.footer-element, .footer-link {
+    color: #635854;
+}
+
+.social {
+    margin-right: 15px;
+   
+}
+
+.footer-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+      
+}
+
+.footer-item {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
